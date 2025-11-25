@@ -1,0 +1,19 @@
+# environment files
+.env
+.env.*
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# node
+node_modules/
+build/
+dist/
+
+# vectorstore
+app/data/
+vectorstore.pkl
+vector.index
+metadata.pkl
