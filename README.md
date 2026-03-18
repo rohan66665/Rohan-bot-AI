@@ -1,25 +1,22 @@
 # 🤖 RAG Bot AI (ChatGPT-style Assistant)
 
-A full-stack AI chatbot built using Retrieval-Augmented Generation (RAG) architecture.
+A full-stack AI chatbot built using Retrieval-Augmented Generation (RAG).
 
 ## 🚀 Features
-- Context-aware AI responses using RAG
-- Vector database retrieval (FAISS / ChromaDB)
-- FastAPI backend for LLM processing
-- React frontend for UI
-- Dockerized deployment
+- Context-aware AI responses
+- Vector DB (FAISS / ChromaDB)
+- FastAPI backend
+- React frontend
+- Deployed on Vercel
 
 ## 🧠 Tech Stack
 - Python, FastAPI
-- LLM Integration
+- LLM APIs
 - FAISS / ChromaDB
 - React.js
-- Docker
 
-## ⚙️ Installation
+## 🔗 Live Demo
+https://rohan-ai-chat.vercel.app
 
-```bash
-git clone https://github.com/rohan66665/Rohan-bot-AI
-cd Rohan-bot-AI
-pip install -r requirements.txt
-uvicorn app.main:app --reload
+## 📌 Use Case
+AI assistant that retrieves knowledge from documents and generates contextual answers.
