@@ -36,6 +36,8 @@ RAG Bot AI is a full-stack AI chatbot that generates context-aware responses usi
 ## 🔗 Live Demo
 👉 https://rohan-ai-chat.vercel.app
 
+> ⚠️ Note: Backend is hosted on AWS EC2. If the demo shows a connection error, the backend may need to be restarted.
+
 ---
 
 ## 🛠️ Installation
