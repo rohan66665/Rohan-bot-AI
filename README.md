@@ -1,25 +1,32 @@
-# 🤖 RAG Bot AI (ChatGPT-style Assistant)
+# 🤖 RAG Bot AI 
 
 ## 🚀 Overview
-RAG Bot AI is a full-stack AI chatbot that generates context-aware responses using Retrieval-Augmented Generation (RAG). It combines vector search with LLMs to provide accurate and relevant answers.
+RAG Bot AI is a full-stack Retrieval-Augmented Generation application that uses document retrieval and LLMs to generate context-aware responses. The project combines a Python/FastAPI backend with a React.js frontend and vector search.
 
 ---
 
 ## 🧠 Tech Stack
-- Python (FastAPI)
-- LLM APIs
-- FAISS / ChromaDB (Vector Database)
-- React.js (Frontend)
-- Docker (Deployment)
+## 🧠 Tech Stack
 
+- Python
+- FastAPI
+- LLM APIs
+- LangChain
+- RAG
+- FAISS / ChromaDB
+- React.js
+- Docker
+- AWS EC2
 ---
 
 ## ⚙️ Features
-- Context-aware chatbot using RAG pipeline
-- Vector similarity search using FAISS/ChromaDB
-- Handles 100+ query flows
-- Modular backend architecture for scalability
-- Full-stack deployment (Backend + Frontend)
+## ⚙️ Features
+
+- Retrieval-Augmented Generation (RAG) based chatbot
+- Document retrieval using vector search
+- Context-aware responses using LLMs
+- React.js frontend connected with FastAPI backend
+- Docker-based application setup
 
 ---
 
@@ -34,10 +41,10 @@ RAG Bot AI is a full-stack AI chatbot that generates context-aware responses usi
 ---
 
 ## 🔗 Live Demo
-👉 https://rohan-ai-chat.vercel.app
 
-> ⚠️ Note: Backend is hosted on AWS EC2. If the demo shows a connection error, the backend may need to be restarted.
+https://rohan-ai-chat.vercel.app
 
+> Note: The frontend is hosted on Vercel and the backend is hosted on AWS EC2. The demo may be unavailable when the backend instance is stopped.
 ---
 
 ## 🛠️ Installation
