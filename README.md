@@ -75,12 +75,3 @@ Rohan-bot-AI/
 ├── requirements.txt     # Python dependencies
 ├── .gitignore           # Git ignored files
 └── README.md            # Project documentation
-
-
----
-
-## 👨‍💻 Author
-
-**Rohan Sharma**
-
-GitHub: [@rohan66665](https://github.com/rohan66665)
