@@ -60,7 +60,7 @@ Generated Response
 
 ## 📁 Project Structure
 
-```text
+~~~text
 Rohan-bot-AI/
 │
 ├── app/                 # Backend application
@@ -75,3 +75,72 @@ Rohan-bot-AI/
 ├── requirements.txt     # Python dependencies
 ├── .gitignore           # Git ignored files
 └── README.md            # Project documentation
+~~~
+
+---
+
+## 🐳 Docker
+
+The project includes Docker configuration for running the application in a containerized environment.
+
+~~~bash
+docker-compose up --build
+~~~
+
+---
+
+## ☁️ Deployment
+
+The backend has been deployed on an AWS EC2 instance.
+
+The deployment workflow includes:
+
+~~~text
+Local Development
+      ↓
+Git / GitHub
+      ↓
+AWS EC2
+      ↓
+Python Environment
+      ↓
+FastAPI Backend
+~~~
+
+The EC2 instance can be accessed through SSH for server management and application deployment.
+
+---
+
+## 🔗 Live Demo
+
+https://rohan-ai-chat.vercel.app
+
+> Note: The frontend is hosted separately from the backend. The backend is hosted on AWS EC2, so the live demo may be unavailable when the backend instance is stopped or requires a restart.
+
+---
+
+## 🧪 Testing
+
+The project includes a `tests/` directory for testing application functionality.
+
+---
+
+## 🎯 Key Concepts Demonstrated
+
+- Python backend development
+- FastAPI and REST API concepts
+- Retrieval-Augmented Generation (RAG)
+- Large Language Models (LLMs)
+- Vector similarity search
+- Document retrieval
+- React.js frontend integration
+- Docker containerization
+- AWS EC2 deployment
+
+---
+
+## 👨‍💻 Author
+
+**Rohan Sharma**
+
+GitHub: [@rohan66665](https://github.com/rohan66665)
