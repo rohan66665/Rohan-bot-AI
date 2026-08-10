@@ -1,55 +1,77 @@
-# 🤖 RAG Bot AI 
+# 🤖 RAG Bot AI
 
-## 🚀 Overview
-RAG Bot AI is a full-stack Retrieval-Augmented Generation application that uses document retrieval and LLMs to generate context-aware responses. The project combines a Python/FastAPI backend with a React.js frontend and vector search.
+A full-stack Retrieval-Augmented Generation (RAG) application that uses document retrieval and Large Language Models (LLMs) to generate context-aware responses.
+
+The project combines a Python/FastAPI backend with a React.js frontend, vector search, and containerized deployment.
 
 ---
 
-## 🧠 Tech Stack
+## 🚀 Overview
+
+RAG Bot AI demonstrates a practical RAG workflow for document-based question answering.
+
+The application retrieves relevant information from available documents and provides the retrieved context to an LLM to generate a relevant response.
+
+### RAG Workflow
+
+Documents
+↓
+Document Processing
+↓
+Chunking
+↓
+Embeddings
+↓
+Vector Search
+↓
+Relevant Context
+↓
+LLM
+↓
+Generated Response
+
+---
+
 ## 🧠 Tech Stack
 
 - Python
 - FastAPI
 - LLM APIs
 - LangChain
-- RAG
+- Retrieval-Augmented Generation (RAG)
 - FAISS / ChromaDB
 - React.js
 - Docker
 - AWS EC2
+
 ---
 
-## ⚙️ Features
 ## ⚙️ Features
 
 - Retrieval-Augmented Generation (RAG) based chatbot
-- Document retrieval using vector search
+- Document-based question answering
+- Vector similarity search using FAISS / ChromaDB
 - Context-aware responses using LLMs
 - React.js frontend connected with FastAPI backend
 - Docker-based application setup
+- Backend deployment on AWS EC2
 
 ---
 
-## 📸 Demo
+## 📁 Project Structure
 
-### UI Preview
-(Add screenshot here)
-
-### Output Example
-(Add output screenshot)
-
----
-
-## 🔗 Live Demo
-
-https://rohan-ai-chat.vercel.app
-
-> Note: The frontend is hosted on Vercel and the backend is hosted on AWS EC2. The demo may be unavailable when the backend instance is stopped.
----
-
-## 🛠️ Installation
-
-### Clone Repository
-```bash
-git clone https://github.com/rohan66665/Rohan-bot-AI
-cd Rohan-bot-AI
+```text
+Rohan-bot-AI/
+│
+├── app/                 # Backend application
+├── data/                # Documents and project data
+├── frontend/            # Frontend application
+├── rag-frontend/        # RAG frontend components/application
+├── scripts/             # Utility and setup scripts
+├── tests/               # Test files
+│
+├── Dockerfile           # Docker image configuration
+├── docker-compose.yml   # Multi-service Docker configuration
+├── requirements.txt     # Python dependencies
+├── .gitignore           # Git ignored files
+└── README.md            # Project documentation
